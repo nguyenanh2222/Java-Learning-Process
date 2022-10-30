@@ -18,8 +18,7 @@ public class Main {
        graph.addEdge("F","H", "5");
        graph.addEdge("G","H", "6");
        System.out.println(graph);
-
-
-
+       graph.find();
     }
-}
+    }
+
