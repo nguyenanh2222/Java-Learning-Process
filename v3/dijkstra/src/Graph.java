@@ -1,21 +1,18 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Graph {
-    private final int V;
-    private int E;
-    private Map<String, List<List>> adj;
+    public final int V;
+    public final int E;
+    public Map<String, List<List<String>>> adj;
 
 
     public Graph() {
         this.V = 8;
         this.E = 10;
-        this.adj =  new HashMap<>();
+        this.adj =  new HashMap<String, List<List<String>>>();
         String v = "ABCDEFGH";
         for (int i = 0; i < v.length(); i++) {
-            List<List> tempArr = new ArrayList<>();
+            List<List<String>> tempArr = new ArrayList<>();
             this.adj.put(String.valueOf(v.charAt(i)), tempArr);
 
     }
@@ -32,14 +29,59 @@ public class Graph {
         this.adj.get(temp_v.get(0)).add(temp_w);
         this.adj.get(temp_w.get(0)).add(temp_v);
     }
-//    public void addEdge1(String v, String w/*, int W) {
-//    Map<String,Integer> map1 =  new HashMap();
-//    map1.put(v,W);
-//    Map<String,Integer> map2 =  new HashMap();
-//    map2.put(w,W);
-//    this.adj.get(v).add(map1);
-//    this.adj.get(w).add(map2);
-//    }*/
+    public void find() {
+        Map<String, String> distance = new HashMap<String, String>();
+        String queue = "ABCDEFGH";
+        List<String> previous = new ArrayList<String>();
+        String defaultChoose = "C";
+        int i;
+        for (i = 0; i < this.V; i++)
+        {
+            distance.put(String.valueOf(queue.charAt(i)),null);
+            previous.add(defaultChoose);
+        }
+        distance.replace(defaultChoose, "0");
+        queue = queue.replace(defaultChoose,"");
+        List<Object> SP = new ArrayList<>();
+        SP.add(defaultChoose);
+        while (!queue.equals("")){
+        int chunk = 999999;
+        System.out.println(chunk);
+            for (String item : distance.values()){
+                if (item == null);
+                else {
+                    if (chunk > Integer.parseInt(item)) chunk = Integer.parseInt(item);
+                    System.out.println(chunk);
+                }
+            }
+        String x = null;
+            for (String item : distance.keySet()){
+                System.out.println(String.valueOf(chunk));
+                if (Objects.equals(distance.get(item), String.valueOf(chunk))){
+                    System.out.println("");
+                    x = item;
+                    break;
+                }
+        }
+            System.out.println(x);
+
+//            defaultChoose = queue;
+
+//            if (distance(x)=Min.distance(Queue));
+//                SP.add(x);
+//                if (y in Queue and Queue.getIndex(y)==Queue.getIndex(x)+1){
+//                    distance(y) > distance(x)+c(x,y) {
+//                    distance(y) = distance(x) + c(x, y);
+//                    previous(y) = x;
+//
+//                }
+//            }
+//
+//        }
+//        return SP;
+    }
+
+
 
     @Override
     public String toString() {
