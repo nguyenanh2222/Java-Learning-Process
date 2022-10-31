@@ -41,17 +41,22 @@ public class Graph {
         }
         queue = queue.replace(defaultChoose,"");
         distance.replace(defaultChoose, "0");
+        distance.replace("A", "1");
         List<Object> SP = new ArrayList<>();
         SP.add(defaultChoose);
-        temp = distance.values();
+        Collection<String> temp_distance = distance.values();
         for (i=0; i<8; i++){
-            System.out.println("---------------");
             int chunk = 999999;
-            for (String item : distance.values()) {
-                if (item == null) ;
+            for (String item : temp_distance) {
+                if (item == null) continue;
                 else {
-                    if (chunk > Integer.parseInt(item)) chunk = Integer.parseInt(item);}
-                }
+                    if (chunk > Integer.parseInt(item)) {
+                        chunk = Integer.parseInt(item);
+//                        temp_distance.remove(item);}
+                    }
+                        if(chunk < Integer.parseInt(item)){
+
+                    }
                 }
             }
             String x = null;
@@ -61,7 +66,6 @@ public class Graph {
                     x = item;
                     temp_queue.append(x);
 //                    break`;
-
                 }
             }
             System.out.println(temp_queue);
@@ -88,10 +92,6 @@ public class Graph {
             System.out.println(previous);
             System.out.println(distance);
     }
-
-
-
-
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Graph{");
