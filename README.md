@@ -1,4 +1,4 @@
-Sử dụng Git như thế nào?
+# Sử dụng Git như thế nào?
 
 Sau khi cài đặt, Git được sử dụng thông qua cửa sổ dòng lệnh với terminal (command-line). 
 Ví dụ như này:
@@ -252,7 +252,8 @@ Git flow
 
     Flow chính: Code sửa đổi -> Merge code vào develop -> testing -> merge develop vào master cho production.
 
-*Java Process Learning
+# Java Process Learning
+
 Java Variables
 Java Data Types
 Java Type Casting
