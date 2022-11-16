@@ -252,3 +252,50 @@ Git flow
 
     Flow chính: Code sửa đổi -> Merge code vào develop -> testing -> merge develop vào master cho production.
 
+*Java Process Learning
+Java Variables
+Java Data Types
+Java Type Casting
+Java Arrays
+
+Java Imuable type - StringBuilder - StringButer
+Java String type
+Java Deepcopy, Sallow copy
+
+Java Collection
+
+Java Method Overloading
+Java Scope
+Java Recursion
+ 
+Java Packages / API (x)
+Java Polymorphism 
+Java Inner Classes 
+Java Date
+Java ArrayList
+Java LinkedList
+Java HashMap
+Java HashSet
+Java Iterator
+Java Wrapper Classes
+Java Exceptions
+Java RegEx
+Java Threads
+Java Lambda
+ 
+Java File Handling (x)
+Java Files 
+Java Create/Write Files
+Java Read Files
+Java Delete Files
+
+ 
+Java Reference
+Java Keywords
+Java String Methods
+Java Math Methods
+
+Spring Data JPA, JPA, JDBC
+Java Web - Spring Boot 
+
+ 
