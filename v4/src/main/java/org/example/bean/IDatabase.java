@@ -1,7 +1,4 @@
-package org.example;
-
-import java.util.ArrayList;
-import java.util.List;
+package org.example.bean;
 
 public interface IDatabase {
 

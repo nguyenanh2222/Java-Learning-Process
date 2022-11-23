@@ -1,9 +1,12 @@
-package org.example;
+package org.example.bean;
+
+import org.example.bean.Account;
+import org.example.bean.IDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Oracle implements IDatabase{
+public class Oracle implements IDatabase {
     private List<Account> users;
 
 

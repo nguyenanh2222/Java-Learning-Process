@@ -1,4 +1,7 @@
-package org.example;
+package org.example.bean;
+
+import org.example.bean.Account;
+import org.example.bean.IDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
