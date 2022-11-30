@@ -4,30 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d892493-b980-4f6b-9d9c-b5bc6e24ac72" name="Changes" comment="[Refactor] Bean">
-      <change afterPath="$PROJECT_DIR$/v3/src/DuplicateWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/src/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/configure/ConfigureSwagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/student/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/student/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/user/IRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/user/IUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/DiMuaTao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/v5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5d892493-b980-4f6b-9d9c-b5bc6e24ac72" name="Changes" comment="[Refactor] add v5 -  Structure process">
+      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/Sout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/references/ConsSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/references/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/references/References.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/FooBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/InheritClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/TestModifierAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/testhihi/ChildrentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/bean/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/bean/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/bean/IDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/bean/MySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/java/org/example/Oracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/java/org/example/bean/Oracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v4/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v5/src/DiMuaTao.java" beforeDir="false" afterPath="$PROJECT_DIR$/v5/src/DiMuaTao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v5/v5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v5/v5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/home/anh/Desktop/repo/respository/java/Java-Learning-Process",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -78,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="student" />
       <recent name="product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +92,12 @@
       <recent name="$PROJECT_DIR$/v4/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiMuaTao">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="https://topdev.vn/blog/yaml-la-gi/" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="DiMuaTao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiMuaTao" />
       <module name="v5" />
@@ -96,33 +105,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DuplicateWords" />
-      <module name="v3" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.QuickSort" />
+      <module name="v6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Scan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scan" />
       <module name="v5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Regex" />
-      <module name="v3" />
+    <configuration name="Sout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sout" />
+      <module name="v5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="v4" />
+    <configuration name="references.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="references.Main" />
+      <module name="v5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.bean.*" />
+          <option name="PATTERN" value="references.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.references.Main" />
+        <item itemvalue="Application.Sout" />
+        <item itemvalue="Application.Scan" />
         <item itemvalue="Application.DiMuaTao" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Regex" />
-        <item itemvalue="Application.DuplicateWords" />
-        <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668417197944</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[Refactor] add v5 -  Structure process">
+      <created>1669182172120</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669182172120</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +282,8 @@
     <MESSAGE value="[ADD] JsonWorking used Jackson lib" />
     <MESSAGE value="[Refactor] Dijkstra" />
     <MESSAGE value="[Refactor] Bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] Bean" />
+    <MESSAGE value="[Refactor] add v5 -  Structure process" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] add v5 -  Structure process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

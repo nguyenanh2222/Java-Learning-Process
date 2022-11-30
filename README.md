@@ -1,5 +1,4 @@
 # Sử dụng Git như thế nào?
-
 Sau khi cài đặt, Git được sử dụng thông qua cửa sổ dòng lệnh với terminal (command-line). 
 Ví dụ như này:
 
@@ -14,9 +13,23 @@ Có hai loại repository, mình tạm gọi là:
 
     Local repository: Là repository được lưu tại một máy tính không. Bạn có thể thêm, sửa, xóa file, tạo "commmit" để lưu lại nhưng chưa thể dùng để chia sẻ tới người khác được. Để tạo local repository, đơn giản tại folder chứa source, sau đó bạn thực hiện command line:
 
+
+dqadasda
+- 12312
+    
+w123123asdasd
+
+        213211
+---
+    shgfdhgklfd
+
+---
+    jfjfjfj
+---
+
 # Create local repository:
 > git init
-Initialized empty Git repository in /home/ubuntu/my-project/.git/
+> Initialized empty Git repository in /home/ubuntu/my-project/.git/
 
     Server repository: Là repository nhưng được lưu tại server của các hosting-service sử dụng Git. Một số hosting-service các bạn có thể biết như: Github, Gitlab, Bitbucket... Repository này có thể dùng để share tới những người khác để họ có quyền truy cập và lấy source code về. Để tạo server repository, bạn đơn giản truy cập vào trang web của hosting-service bạn dùng và thực hiện qua vài cú click tùy nhà cung cấp dịch vụ.
 
@@ -144,7 +157,7 @@ Làm việc với branch
     Xem danh sách branch hiện có:
 
 > git branch
-feature/a
+> feature/a
 * master
 
 Branch hiện tại bạn đang working sẽ có dấu * ở đầu dòng. Khi có qua nhiều branch trong danh sách, git sẽ hiển thị dạng ScrollView, bạn nhấn nút điều hướng lên/xuống để cuộn lên/xuống. Muốn thoát khỏi chế độ cuộn, gõ:

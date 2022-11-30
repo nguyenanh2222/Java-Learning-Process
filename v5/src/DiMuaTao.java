@@ -50,56 +50,56 @@ Vì cửa hàng chỉ có gói 3 và 4kg nên anh ta sẽ không thể làm hài
 Anh ta có thể mua năm gói 1kg vì anh ta phải mua 5 kg. Vì vậy, số tiền tối thiểu anh ta nên chi là 5.
 */
 public class DiMuaTao {
-    public int tienMuaTao(Integer n, Integer k, List<Integer> arr){
+    public int tienMuaTao(Integer n, Integer k, List<Integer> arr) {
         List<Integer> y = new ArrayList<>(arr);
         Map<Integer, Integer> v = new HashMap<>();
         int count = 0;
         for (Integer item : y) {
             count += 1;
-            if(item != -1){
+            if (item != -1) {
                 v.put(count, item);
             }
         }
         Integer a;
         Integer b;
         for (a = 0; a <= k; a++) {
+            if (a>0 && k%a == 0 && v.containsKey(a)) {
+                return k/a*v.get(a);}
             for (b = 0; b <= k; b++) {
                 if (a + b == k && v.containsKey(a) && v.containsKey(b)) {
-                    return v.get(a)+v.get(b);
-                }
+                    k = v.get(a) + v.get(b);
+                    return k;}
             }
         }return -1;
-
     }
-    public static void main(String[] args) {
-        System.out.println("----------------hello----------------------");
-        System.out.println("Nhap so truong hop");
-        Scanner th = new Scanner(System.in);
-        int c = th.nextInt();
-        while (c>=0){
-            System.out.println("------------------begin--------------------");
-            Scanner s = new Scanner(System.in);
-            List<Integer> arr = new ArrayList<>();
-            System.out.println("Nhap gia mat hang");
-            arr.add(s.nextInt());
-            arr.add(s.nextInt());
-            arr.add(s.nextInt());
-            arr.add(s.nextInt());
-            arr.add(s.nextInt());
 
-            DiMuaTao diMuaTao = new DiMuaTao();
+            public static void main (String[]args){
+                System.out.println("----------------hello----------------------");
+                System.out.println("Nhap so truong hop");
+                Scanner th = new Scanner(System.in);
+                int c = th.nextInt();
+                while (c > 0) {
+                    System.out.println("------------------begin--------------------");
+                    System.out.println("Nhap so khach");
+                    Scanner n = new Scanner(System.in);
+                    int nInput = n.nextInt();
 
-            System.out.println("Nhap so khach");
-            Scanner n = new Scanner(System.in);
-            int nInput = n.nextInt();
-
-            System.out.println("Nhap so kg");
-            Scanner k = new Scanner(System.in);
-            int kInput = k.nextInt();
-            System.out.println(diMuaTao.tienMuaTao(nInput, kInput, arr));
-            System.out.println("------------------end--------------------");
-            c --;
+                    System.out.println("Nhap so kg");
+                    Scanner k = new Scanner(System.in);
+                    int kInput = k.nextInt();
+                    Scanner s = new Scanner(System.in);
+                    List<Integer> arr = new ArrayList<>();
+                    System.out.println("Nhap gia mat hang");
+                    for (int i = 1; i <= kInput; i++) {
+                        arr.add(s.nextInt());
+                    }
+                    DiMuaTao diMuaTao = new DiMuaTao();
+                    System.out.print("Tien mua tao: ");
+                    System.out.println(diMuaTao.tienMuaTao(nInput, kInput, arr));
+                    System.out.println("------------------end--------------------");
+                    c--;
+                }
+            }
         }
-    }
-}
+
 
