@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d892493-b980-4f6b-9d9c-b5bc6e24ac72" name="Changes" comment="[Refactor] add v5 -  Structure process">
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/Scan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/Sout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/references/ConsSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/references/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/references/References.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/student/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/FooBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v5/src/test_interface_abstract_class/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/InheritClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/TestModifierAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v6/src/main/java/testhihi/ChildrentClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5d892493-b980-4f6b-9d9c-b5bc6e24ac72" name="Changes" comment="[Refactor] add v6 -  Quick Sort">
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/hackerank/Array2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v6/src/main/java/org/example/hackerank/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v5/src/DiMuaTao.java" beforeDir="false" afterPath="$PROJECT_DIR$/v5/src/DiMuaTao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v5/v5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v5/v5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/anh/Desktop/repo/respository/java/Java-Learning-Process",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anh/Desktop/repo/respository/java/Java-Learning-Process&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="student" />
@@ -97,10 +74,16 @@
       <command value="https://topdev.vn/blog/yaml-la-gi/" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="DiMuaTao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiMuaTao" />
-      <module name="v5" />
+  <component name="RunManager" selected="Application.Array2D">
+    <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hackerank.Array2D" />
+      <module name="v6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hackerank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,16 +101,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scan" />
-      <module name="v5" />
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hackerank.Result" />
+      <module name="v6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hackerank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sout" />
-      <module name="v5" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hackerank.Solution" />
+      <module name="v6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hackerank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array2D" />
+        <item itemvalue="Application.Result" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.references.Main" />
-        <item itemvalue="Application.Sout" />
-        <item itemvalue="Application.Scan" />
-        <item itemvalue="Application.DiMuaTao" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669182172120</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[Refactor] add v6 -  Quick Sort">
+      <created>1669830279198</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669830279198</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +285,8 @@
     <MESSAGE value="[Refactor] Dijkstra" />
     <MESSAGE value="[Refactor] Bean" />
     <MESSAGE value="[Refactor] add v5 -  Structure process" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] add v5 -  Structure process" />
+    <MESSAGE value="[Refactor] add v6 -  Quick Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] add v6 -  Quick Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
